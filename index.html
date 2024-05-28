@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pestañas con CSS</title>
+  <link rel="stylesheet" href="Pestaña.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Mi Cecytem</h1>
+    <h2>Este cecytem es muy especial ya que tenemos clases en un cerro hay culebras alacranes y etc...</h2>
+  </div>
+
+  <div class="container">
+    <div class="sidebar"> 
+      <img id="carouselImg" src="img1.jpg" alt="Imagen de la barra lateral">
+    </div>
+    <div class="content">
+      <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'historia')">Historia</button>
+        <button class="tablinks" onclick="openTab(event, 'tipos')">Tipos de Clases</button>
+        <button class="tablinks" onclick="openTab(event, 'modulos')">Módulos</button>
+      </div>
+
+      <div id="historia" class="tabcontent">
+        <h3>Historia Cecytem</h3>
+        <p>El Colegio de Estudios Científicos y Tecnológicos del Estado de México (CECyTE) tiene como objetivo impartir educación media superior de calidad, en su modalidad de bachillerato tecnológico bivalente, con el fin de que los egresados cuenten con educación tecnológica terminal que les permita incorporarse a una actividad productiva o continuar sus estudios de nivel superior.</p>
+      </div>
+
+      <div id="tipos" class="tabcontent">
+        <h3>Tipos de Clases</h3>
+        <p>Bachillerato Tecnológico Bivalente: Es un programa educativo que se enfoca en la formación de los jóvenes para que puedan continuar con estudios de nivel superior o incorporarse al mercado laboral.
+Carreras Técnicas y Profesionales: 
+            El CECYTEM ofrece 29 carreras técnicas y profesionales, distribuidas en 60 planteles, que se enfocan en áreas como la ingeniería, la ciencia, la tecnología y la salud.
+Educación en Línea: El CECYTEM también ofrece educación en línea, lo que permite a los estudiantes acceder a los programas educativos de manera flexible y accesible.
+Formación en Valores y Competencias: El CECYTEM se enfoca en la formación integral de los jóvenes, incluyendo la formación en valores y competencias, como la resolución de problemas, la comunicación efectiva y la toma de decisiones.
+Investigación y Desarrollo: El CECYTEM tiene un enfoque en la investigación y el desarrollo, lo que permite a los estudiantes y profesores trabajar en proyectos innovadores y aplicar conocimientos en la práctica.</p>
+      </div>
+
+      <div id="modulos" class="tabcontent">
+        <h3>Módulos</h3>
+        <p>Ingeniería: El CECYTEM ofrece programas de ingeniería en áreas como la electrónica, mecánica, computación, entre otras.
+Ciencias Biológicas: El colegio ofrece programas de licenciatura en biología, química, farmacia, entre otros.
+Ciencias Sociales: El CECYTEM ofrece programas de licenciatura en áreas como la psicología, sociología, economía, entre otros.
+Tecnologías de la Información: El colegio ofrece programas de licenciatura en áreas como la informática, telecomunicaciones, entre otros.
+Enseñanza: El CECYTEM también ofrece programas de licenciatura en educación, con especializaciones en áreas como la educación primaria, secundaria, entre otros.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="Pestaña.js"></script>
+</body>
+</html>

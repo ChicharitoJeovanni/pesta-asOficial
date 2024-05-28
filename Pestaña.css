@@ -1,0 +1,128 @@
+/* Estilos para las pestañas */
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.tablinks {
+  background-color: #A6BAD8;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  flex-grow: 1; /* Permite que cada botón crezca para llenar el espacio disponible */
+  text-align: center; /* Centra el texto dentro del botón */
+}
+
+.tablinks:hover {
+  background-color:#74ACFF;
+}
+
+.tabs {
+  display: flex;
+  width: 100%; /* Asegura que el contenedor de las pestañas ocupe todo el ancho */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos dentro del contenedor */
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  width: 25%; /* Ancho de la barra lateral */
+  margin-bottom: 20px; /* Espacio inferior de la barra lateral */
+}
+
+.sidebar img {
+  max-width: 100%; /* La imagen no será más ancha que su contenedor */
+}
+
+/* Estilos para el contenido principal */
+.content {
+  width: 75%; /* Ancho del contenido principal */
+}
+
+/* Estilos para el encabezado */
+.header {
+  text-align: center;
+  background-color: #A6BAD8;
+  padding: 20px 0; /* Relleno superior e inferior */
+}
+
+.header h1 {
+  margin: 0 0 10px 0; /* Margen inferior de 10px para el título */
+    margin top: 0 0 10px 0; /* Margen inferior de 10px para el título */
+}
+
+.header h2 {
+  margin: 0; /* Elimina el margen por defecto para el subtítulo */
+}
+/* Estilos para las pestañas */
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.tablinks {
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  flex-grow: 1; /* Permite que cada botón crezca para llenar el espacio disponible */
+  text-align: center; /* Centra el texto dentro del botón */
+}
+
+.tablinks:hover {
+  background-color: #ddd;
+}
+
+.tabs {
+  display: flex;
+  width: 100%; /* Asegura que el contenedor de las pestañas ocupe todo el ancho */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos dentro del contenedor */
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  width: 25%; /* Ancho de la barra lateral */
+  margin-bottom: 20px; /* Espacio inferior de la barra lateral */
+}
+
+.sidebar img {
+  max-width: 100%; /* La imagen no será más ancha que su contenedor */
+  margin-top: 20px; /* Margen superior para bajar la imagen */
+}
+
+/* Estilos para el contenido principal */
+.content {
+  width: 75%; /* Ancho del contenido principal */
+}
+
+/* Estilos para el encabezado */
+.header {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0; /* Relleno superior e inferior */
+}
+
+.header h1 {
+  margin: 0 0 10px 0; /* Margen inferior de 10px para el título */
+}
+
+.header h2 {
+  margin: 0; /* Elimina el margen por defecto para el subtítulo */
+}
